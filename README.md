@@ -32,7 +32,6 @@ The repository is organized by artifact type. Suggested top-level directories
 ```
 skills/      # Reusable, self-contained skills (Markdown with frontmatter)
 agents/      # Subagent definitions
-commands/    # Slash command definitions
 hooks/       # Hook scripts and configuration snippets
 prompts/     # Standalone prompt templates
 settings/    # Example settings.json fragments
