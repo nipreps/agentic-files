@@ -1,0 +1,19 @@
+{
+  "name": "nipreps",
+  "owner": {
+    "name": "NiPreps Developers"
+  },
+  "metadata": {
+    "description": "Shared agentic skills and subagents for NiPreps contributors"
+  },
+  "plugins": [
+    {
+      "name": "nipreps",
+      "description": "Skills and subagents for NiPreps development",
+      "source": "./",
+      "strict": false,
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/nipreps/agentic-files"
+    }
+  ]
+}
