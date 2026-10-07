@@ -64,6 +64,4 @@ prescribe one.
 
 ## License
 
-Unless otherwise noted in an individual file, contents are released under the
-same license terms as the broader NiPreps project. See `LICENSE` (to be added)
-for details.
+Apache License 2.0
