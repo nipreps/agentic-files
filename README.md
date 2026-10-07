@@ -52,6 +52,20 @@ small sync script.
 Pick whichever mechanism fits the downstream project; this repo does not
 prescribe one.
 
+### Claude Code plugin
+
+Claude Code users can install the skills and agents directly as a plugin:
+
+```
+/plugin marketplace add nipreps/agentic-files
+/plugin install nipreps@nipreps
+```
+
+Installed components are namespaced (e.g., `nipreps:nipreps-release`,
+`nipreps:nipreps-guru`), and agent memory is kept under
+`~/.claude/agent-memory/nipreps-<agent>/`. The seed files in `agent-memory/`
+are not installed by the plugin; copy them there manually if you want them.
+
 ## Contributing
 
 1. Add or update a file under the appropriate directory.
